@@ -1,0 +1,40 @@
+.current-image {
+  width: 80%;
+  height: 500px;
+}
+
+.hide-image {
+    display: none;
+}
+
+
+.arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #555);
+  }
+  
+  .arrow-left {
+    left: 1rem;
+  }
+  
+  .arrow-right {
+    right: 1rem;
+  }
+
+  .circle {
+   
+  }
+  
+  .circle button {
+    background-color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+  }
+
+  .circle .active {
+    background-color: grey;
+  }
