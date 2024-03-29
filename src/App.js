@@ -4,6 +4,7 @@ import './App.css';
 import RandomColor from './components/accordian/random-color';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
+import LoadMoreData from './components/load-more-data';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
      {/* <Accordian/> */}
      {/* <RandomColor /> */}
      {/* <StarRating /> */}
-     <ImageSlider url={"https://dummyjson.com/products"}/>
+     {/* <ImageSlider url={"https://dummyjson.com/products"}/> */}
+     <LoadMoreData />
     </div>
   );
 }
