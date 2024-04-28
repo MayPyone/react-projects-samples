@@ -1,0 +1,8 @@
+.light-dark-mode {
+    background-color: #fff;
+    height: 100vh;
+}
+
+[data-theme = 'dark'] {
+    background-color: black;
+}
