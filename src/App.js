@@ -10,6 +10,7 @@ import menus from './components/tree-view/data'
 import QRCodeGenerator from './components/qr';
 import LightDarkMode from'./components/light-dark-mode';
 import ScrollIndicator from'./components/indicator';
+import TotalTab from './components/custom-tabs/totalTab';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
      {/* <TreeView menu={menus}/> */}
      {/* <QRCodeGenerator /> */}
      {/* <LightDarkMode /> */}
-     <ScrollIndicator url={"https://dummyjson.com/products?limit=50"}/>
+     {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=50"}/> */}
+     <TotalTab />
 
     </div>
   );

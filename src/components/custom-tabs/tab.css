@@ -1,0 +1,12 @@
+.tabgroup {
+    display: inline-flex;
+    background-color: rgb(230, 179, 230);
+    margin: 0.2%;
+    padding: 0.5%;
+    color: black;
+}
+
+.tabgroup.active {
+    background-color: blueviolet;
+}
+
