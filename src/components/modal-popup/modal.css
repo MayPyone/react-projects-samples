@@ -1,0 +1,33 @@
+.showbutton {
+  background-color: green;
+  color: white;
+}
+
+.modal {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+    width: 40%;
+    height: 40%;
+    overflow: auto;
+    background-color: #baf005;
+    cursor: pointer;
+    align-items: center;
+    margin: 0 auto;
+    transform: translate(-50%, 0%);
+  }
+  
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .mybody{
+   margin-top: 1%;
+  }
+
+  .footer{
+   margin-top: 1%;
+  }
