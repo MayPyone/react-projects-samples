@@ -16,6 +16,8 @@
     align-items: center;
     margin: 0 auto;
     transform: translate(-50%, 0%);
+    animation-name: animateModal;
+    animation-duration: 0.5s;
   }
   
   .header{
@@ -31,3 +33,15 @@
   .footer{
    margin-top: 1%;
   }
+
+  @keyframes animateModal {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

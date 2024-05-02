@@ -1,0 +1,24 @@
+table {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bio {
+  margin-bottom: 1%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+input {
+    margin: 2% 1%;
+    padding: 1%;
+    border: 1px solid brown;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid black;
+  }
+button {
+    padding: 1%;
+}

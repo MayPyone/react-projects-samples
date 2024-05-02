@@ -12,6 +12,7 @@ import LightDarkMode from'./components/light-dark-mode';
 import ScrollIndicator from'./components/indicator';
 import TotalTab from './components/custom-tabs/totalTab';
 import Container from './components/modal-popup';
+import FethUserData from './components/github-profilefinder'
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
      {/* <LightDarkMode /> */}
      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=50"}/> */}
      {/* <TotalTab /> */}
-     <Container />
+     {/* <Container /> */}
+     <FethUserData />
 
     </div>
   );
