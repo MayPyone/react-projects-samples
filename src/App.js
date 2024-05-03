@@ -13,6 +13,7 @@ import ScrollIndicator from'./components/indicator';
 import TotalTab from './components/custom-tabs/totalTab';
 import Container from './components/modal-popup';
 import FethUserData from './components/github-profilefinder'
+import SearchUser from './components/search-autocomplete';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=50"}/> */}
      {/* <TotalTab /> */}
      {/* <Container /> */}
-     <FethUserData />
+     {/* <FethUserData /> */}
+     <SearchUser />
 
     </div>
   );

@@ -3,15 +3,21 @@ import  User  from "./userProfile"
 export default function FethUserData(){
     const [userData, setUserData] = useState(null)
     const [userName, setUserName] = useState("MayPyone")
+    const [loading, setLoading] = useState(false);
 
     async function fetchData() {
+        setLoading(true);
         const response = await fetch(`https://api.github.com/users/${userName}`);
         const data = await response.json();
-        setUserData(data);
+        if(data){
+            setUserData(data);
+            setLoading(false);
+        }
     }
 
     function handleSubmit(){
         fetchData();
+        
     }
 
     useEffect(
@@ -19,6 +25,11 @@ export default function FethUserData(){
         fetchData()
       }
     ,[])
+
+    if(loading){
+        <div>Loading..</div>
+    }
+
     return(
         <div>
             <input type="text" onChange={(event)=>setUserName(event.target.value)}
